@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippine's Wonders - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="contact.html">About</a></li>
+            <li class="ctn active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Contact Us</h2>
+            <div class="line">
+            <h1>Get in Touch</h1>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Reach Out</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.png" alt="">
+                <h4>Contact Form</h4>
+                <p> hgasfdhgafshdgfahsdafhdgahsdgfad</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/img2.png" alt="">
+                <h4>Social Media</h4>
+                <p> hgasfdhgafshdgfahsdafhdgahsdgfad</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
