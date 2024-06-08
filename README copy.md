@@ -1,1 +1,0 @@
-# vinzpatrickmerialesgithub.io
