@@ -21,7 +21,7 @@ ul{
 body{
     min-height: 100vh;
     width: 100%;
-    background: #d8538ac5;
+    background: #636f72c5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,6 +206,7 @@ p{
 .events .ctn{
     margin-top: 30px;
 }
+
 /* Mobile Device */
 @media only screen and (max-width:850px){
     .menu-btn{
